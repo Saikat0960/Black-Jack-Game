@@ -1,0 +1,69 @@
+﻿body {
+    display: block;
+    margin: 8px;
+}
+
+h1, h2, h3, p {
+    text-align:center;
+    display: block;
+}
+
+.hide{
+    display:none;
+}
+#dealerSection , #playerSection{
+    float:left;
+    width:47%;
+    border:1px solid black;
+    margin-right:5px;
+    padding:10px;
+    margin-bottom:20px;
+}
+#dealerScoreDisplay, #playerScoreDisplay {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#dealerHand img{
+    height:250px;
+    width:150px;
+}
+#playerHand img {
+    height: 250px;
+    width: 150px;
+}
+#cardTable h4{
+    border:1px solid green;
+    padding:5px;
+    text-align:center;
+    width:50%;
+    margin:auto;
+    margin-bottom:25px;
+    background-color:deepskyblue;
+}
+#newgame,#buttons{
+    text-align:center;
+    padding-top:50px;
+}
+#hitButton, #stayButton{
+    margin-top:20px;
+}
+#dealButton{
+    padding:5px;
+    font-size:1.2em;
+    background-color:cyan;
+}
+#newgameButton {
+    padding: 5px;
+    font-size: 1.2em;
+    background-color:azure;
+}
+#stayButton {
+    padding: 5px;
+    font-size: 1.2em;
+    background-color:palegreen;
+}
+#hitButton {
+    padding: 5px 13px;
+    font-size: 1.2em;
+    background-color:lightpink;
+}
